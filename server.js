@@ -78,7 +78,7 @@
 // })
 
 // app.get('/about',(req,res)=>{
-//     res.send("welcome to my  bhomepage")
+//     res.send("welcome to my  homepage")
 // })
 // app.get('/weather',(req,res)=>{
 //     //res.send(data)
