@@ -1,0 +1,17 @@
+doctype html 
+html 
+   title #{title} 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+     body 
+        div.text-center 
+          h1.h1.py-4 simple form
+
+        div.container.text-center.w-25    
+           form(method='POST',action='/form_submit')
+             div.form-group
+                input(type='text',name='username',class='form-control',value='',placeholder='username')
+             div.form-group
+                input(type='text',name='email',class='form-control',value='',placeholder='email')
+             div.form-group
+                input(type='submit',.class='btn btn-primary',value='submit')
